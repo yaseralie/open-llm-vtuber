@@ -18,7 +18,9 @@ Click the image above to watch the video
   </a>
 </p>
 Click the image above to watch the video
+##### 1. Update & Install
 ```
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y git python3 python3-venv python3-pip curl```
+sudo apt install -y git python3 python3-venv python3-pip curl
+```
 
