@@ -113,3 +113,35 @@ sudo openssl req -x509 -nodes -days 365 \
 ```
 When asked Common Name (CN), fill with your IP VPS:
 Common Name (CN): 103.171.85.170
+
+#### 3.Edit run_server.py
+```
+    # Run the Uvicorn server
+    logger.info(f"Starting server on {server_config.host}:{server_config.port}")
+    uvicorn.run(
+        app=server.app,
+        host=server_config.host,
+        port=server_config.port,
+        log_level=console_log_level.lower(),
+        ssl_certfile="/etc/ssl/open-llm-vtuber/server.crt",
+        ssl_keyfile="/etc/ssl/open-llm-vtuber/server.key",)
+```
+
+#### 4.Change Permission
+```
+sudo chown yaseralie:yaseralie /etc/ssl/open-llm-vtuber/server.key
+sudo chmod 600 /etc/ssl/open-llm-vtuber/server.key
+sudo chown yaseralie:yaseralie /etc/ssl/open-llm-vtuber/server.crt
+sudo chmod 644 /etc/ssl/open-llm-vtuber/server.crt
+```
+
+#### 5.Change configuration in frontend page
+WebSocket URL:
+```
+wss://103.171.85.170:12393/client-ws
+```
+
+Base URL:
+```
+https://103.171.85.170:12393
+```
