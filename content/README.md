@@ -9,4 +9,8 @@ Original Github: https://github.com/Open-LLM-VTuber/Open-LLM-VTuber
   </a>
 </p>
 Click the image above to watch the video.
+#### Step by Step Run-LLM-VTuber on VPS
+#####1. Update & Install Basic Tools
+`sudo apt update && sudo apt upgrade -y
+`sudo apt install -y git python3 python3-venv python3-pip curl
 
