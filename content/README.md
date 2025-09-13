@@ -2,7 +2,7 @@
 Original Github: https://github.com/Open-LLM-VTuber/Open-LLM-VTuber
 
 ### Youtube Reference
-#### Open-LLM-VTuber
+#### Open-LLM-VTuber Running on VPS
 <p align="center">
   <a href="https://www.youtube.com/watch?v=JefGof3G-o8" target="_blank">
     <img src="https://img.youtube.com/vi/JefGof3G-o8/0.jpg" alt="YouTube Video Thumbnail" width="480" />
