@@ -66,3 +66,34 @@ system_config:
   letta_agent:
       host: '0.0.0.0' # Host address
 ```
+- Set LLM provider
+```
+    agent_settings:
+      basic_memory_agent:
+        # The Basic AI Agent. Nothing fancy.
+        # choose one of the llm provider from the llm_config
+        # and set the required parameters in the corresponding field
+        # examples: 
+        # 'openai_compatible_llm', 'llama_cpp_llm', 'claude_llm', 'ollama_llm'
+        # 'openai_llm', 'gemini_llm', 'zhipu_llm', 'deepseek_llm', 'groq_llm'
+        # 'mistral_llm', 'lmstudio_llm', and more
+        llm_provider: 'gemini_llm'
+```
+- Fill API key
+```
+      gemini_llm:
+        llm_api_key: 'YOUR API KEY'
+        model: 'gemini-2.5-flash-lite'
+        temperature: 0.4 # value between 0 to 2
+```
+
+##### 7. Edit file main-nu7uwxNJ.js
+Copy file main-nu7uwxNJ.js from this github, copy to folder /frontend/assets/
+
+##### 8. Run Server
+```
+python3 run_server.py
+```
+
+##### 9.  Open from Browser
+IP ADDRESS:12393
