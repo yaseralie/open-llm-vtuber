@@ -97,3 +97,19 @@ python3 run_server.py
 
 ##### 9.  Open from Browser
 IP ADDRESS:12393
+
+#### Setup SSL for HTTPS access
+##### 1. Create Self-Signed Certificate folder on VPS
+```
+sudo mkdir -p /etc/ssl/open-llm-vtuber
+cd /etc/ssl/open-llm-vtuber
+```
+##### 2. Create private key and certificate
+```
+sudo openssl req -x509 -nodes -days 365 \
+  -newkey rsa:2048 \
+  -keyout server.key \
+  -out server.crt
+```
+When asked Common Name (CN), fill with your IP VPS:
+Common Name (CN): 103.171.85.170
