@@ -39,3 +39,19 @@ source venv/bin/activate
 pip install --upgrade pip setuptools wheel packaging
 pip install -r requirements.txt
 ```
+
+##### 4. Install modules
+```
+pip install pyyaml ruamel.yaml uvicorn loguru fastapi websockets requests tomli packaging chardet numpy mcp anthropic openai pysbd langdetect jinja2 Letta pydub sherpa_onnx edge_tts
+```
+
+##### 5. Install ffmpeg
+```
+sudo apt install -y ffmpeg
+```
+
+##### 6. Setting conf.yaml
+Run python run_server.py to make conf.yaml
+```
+python3 run_server.py
+```
