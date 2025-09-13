@@ -55,3 +55,9 @@ Run python run_server.py to make conf.yaml
 ```
 python3 run_server.py
 ```
+Edit URL (replace to 0.0.0.0):
+```
+system_config:
+  conf_version: 'v1.2.1'
+  host: '0.0.0.0' # use 0.0.0.0 if you want other devices to access this page
+```
