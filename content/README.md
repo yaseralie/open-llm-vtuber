@@ -10,7 +10,6 @@ Original Github: https://github.com/Open-LLM-VTuber/Open-LLM-VTuber
 </p>
 Click the image above to watch the video
 
-### Youtube Reference
 #### Steps Run Open-LLM-VTuber on VPS
 <p align="center">
   <a href="https://www.youtube.com/watch?v=JefGof3G-o8" target="_blank">
@@ -25,3 +24,18 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install -y git python3 python3-venv python3-pip curl
 ```
 
+
+##### 2. Clone Repository
+```
+git clone --recursive https://github.com/Open-LLM-VTuber/Open-LLM-VTuber.git
+cd Open-LLM-VTuber
+```
+
+##### 3. Prepare Python Virtual Env
+```
+cd Open-LLM-VTuber
+python3 -m venv venv
+source venv/bin/activate
+pip install --upgrade pip setuptools wheel packaging
+pip install -r requirements.txt
+```
