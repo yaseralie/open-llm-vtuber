@@ -145,3 +145,12 @@ Base URL:
 ```
 https://103.171.85.170:12393
 ```
+
+## ☕ Support My Work
+
+If you find this project useful, consider supporting my work:  
+- [Donate $3](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=yaseralie@gmail.com&item_name=Support+My+Tech+Projects&currency_code=USD&amount=3)
+- [Donate $5](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=yaseralie@gmail.com&item_name=Support+My+Tech+Projects&currency_code=USD&amount=5)
+- [Donate Custom Amount](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=yaseralie@gmail.com&item_name=Support+My+Tech+Projects&currency_code=USD)
+
+Thank you for helping me keep this project alive! 🚀
